@@ -6,6 +6,8 @@
 //  Copyright © 2016 Katerina Bakun. All rights reserved.
 //
 
+// Added on develop branch
+
 import UIKit
 
 class ViewController: UIViewController {
