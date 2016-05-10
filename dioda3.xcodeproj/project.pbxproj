@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06042E1D1CDBD03800967877 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E171CDBD03800967877 /* add.png */; };
+		06042E1E1CDBD03800967877 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E181CDBD03800967877 /* down.png */; };
+		06042E1F1CDBD03800967877 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E191CDBD03800967877 /* left.png */; };
+		06042E201CDBD03800967877 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E1A1CDBD03800967877 /* minus.png */; };
+		06042E211CDBD03800967877 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E1B1CDBD03800967877 /* right.png */; };
+		06042E221CDBD03800967877 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 06042E1C1CDBD03800967877 /* up.png */; };
 		06DC3E1B1CD938E400787790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E1A1CD938E400787790 /* AppDelegate.swift */; };
 		06DC3E1D1CD938E400787790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E1C1CD938E400787790 /* ViewController.swift */; };
 		06DC3E201CD938E400787790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DC3E1E1CD938E400787790 /* Main.storyboard */; };
@@ -26,9 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06042E171CDBD03800967877 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		06042E181CDBD03800967877 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		06042E191CDBD03800967877 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		06042E1A1CDBD03800967877 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		06042E1B1CDBD03800967877 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		06042E1C1CDBD03800967877 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		06DC3E171CD938E400787790 /* dioda3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dioda3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DC3E1A1CD938E400787790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06DC3E1C1CD938E400787790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06DC3E1C1CD938E400787790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		06DC3E1F1CD938E400787790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06DC3E211CD938E400787790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DC3E241CD938E400787790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +94,12 @@
 				06DC3E1E1CD938E400787790 /* Main.storyboard */,
 				06DC3E211CD938E400787790 /* Assets.xcassets */,
 				06DC3E231CD938E400787790 /* LaunchScreen.storyboard */,
+				06042E171CDBD03800967877 /* add.png */,
+				06042E181CDBD03800967877 /* down.png */,
+				06042E191CDBD03800967877 /* left.png */,
+				06042E1A1CDBD03800967877 /* minus.png */,
+				06042E1B1CDBD03800967877 /* right.png */,
+				06042E1C1CDBD03800967877 /* up.png */,
 				06DC3E261CD938E400787790 /* Info.plist */,
 			);
 			path = dioda3;
@@ -178,8 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DC3E251CD938E400787790 /* LaunchScreen.storyboard in Resources */,
+				06042E1E1CDBD03800967877 /* down.png in Resources */,
+				06042E211CDBD03800967877 /* right.png in Resources */,
+				06042E1F1CDBD03800967877 /* left.png in Resources */,
 				06DC3E221CD938E400787790 /* Assets.xcassets in Resources */,
+				06042E201CDBD03800967877 /* minus.png in Resources */,
+				06042E221CDBD03800967877 /* up.png in Resources */,
 				06DC3E201CD938E400787790 /* Main.storyboard in Resources */,
+				06042E1D1CDBD03800967877 /* add.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +410,7 @@
 				06DC3E361CD938E500787790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06DC3E371CD938E500787790 /* Build configuration list for PBXNativeTarget "dioda3Tests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +419,7 @@
 				06DC3E391CD938E500787790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
